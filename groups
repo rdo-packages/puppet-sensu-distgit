@@ -1,3 +1,5 @@
-# UUID                                  	Group Name
-#
-b5a28841f859fe5bdafcfe7f043d10a2c932e965	puppet-sensu-distgit-ptl
+# UUID          Group Name
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
+92b81d485228c333b140078fbaec3a8744fc5ef6       	puppet-sensu-distgit-core
+b5a28841f859fe5bdafcfe7f043d10a2c932e965        	puppet-sensu-distgit-ptl
+global:Registered-Users		Registered Users
