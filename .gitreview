@@ -1,5 +1,5 @@
 [gerrit]
-host=rpmfactory.beta.rdoproject.org
+host=review.rdoproject.org
 port=29418
-project=puppet-sensu-distgit
-defaultbranch=master
+project=puppet/puppet-sensu-distgit
+defaultbranch=rpm-master
