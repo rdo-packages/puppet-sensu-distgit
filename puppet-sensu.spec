@@ -7,8 +7,8 @@
 
 
 Name:           puppet-sensu
-Version:        XXX
-Release:        XXX
+Version:        2.1.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        A module to install the Sensu monitoring framework
 License:        MIT
 
@@ -49,4 +49,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/sensu/
 
 
 %changelog
+* Tue Sep 20 2016 Haikel Guemar <hguemar@fedoraproject.org> - 2.1.0-1.7f60b2c.git
+- Newton update 2.1.0 (7f60b2c5f708ed03b7769b69a1e86018db598aa9)
+
 
