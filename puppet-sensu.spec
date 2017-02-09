@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name sensu-puppet
-%global commit 7f60b2c5f708ed03b7769b69a1e86018db598aa9
+%global commit 2d3a47780b95b337b8e84558fe11977ea033d051
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-sensu
-Version:        XXX
-Release:        XXX
+Version:        2.2.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        A module to install the Sensu monitoring framework
 License:        MIT
 
@@ -49,4 +49,6 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/sensu/
 
 
 %changelog
+* Thu Feb 09 2017 Alfredo Moralejo <amoralej@redhat.com> 2.2.0-1.2d3a477git
+- Ocata update 2.2.0 (2d3a47780b95b337b8e84558fe11977ea033d051)
 
