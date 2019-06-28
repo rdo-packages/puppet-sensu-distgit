@@ -50,3 +50,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/sensu/
 
 %changelog
 
+# REMOVEME: error caused by commit https://github.com/sensu/sensu-puppet/commit/87702cff0da836065bac5b805a1b6f82b1c82918
